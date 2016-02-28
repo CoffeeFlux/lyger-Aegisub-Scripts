@@ -339,39 +339,6 @@
         ]
       }
     },
-    "lyger.Image2ASS": {
-      "url": "@{baseUrl}#@{namespace}",
-      "author": "lyger",
-      "name": "Image to .ass",
-      "description": "Converts bitmap image to .ass lines.",
-      "channels": {
-        "master": {
-          "version": "2.3.0",
-          "released": "2015-05-14",
-          "default": true,
-          "files": [
-            {
-              "name": ".lua",
-              "url": "@{fileBaseUrl}@{fileName}",
-              "sha1": "38E47B0145BB319C782BC6F3593E3486D62E6109"
-            }
-          ],
-          "requiredModules": [
-            {
-              "moduleName": "aegisub.util"
-            },
-            {
-              "moduleName": "ffi"
-            }
-          ]
-        }
-      },
-      "changelog": {
-        "2.3.0": [
-          "Added DependencyControl"
-        ]
-      }
-    },
     "lyger.KaraHelper": {
       "url": "@{baseUrl}#@{namespace}",
       "author": "lyger",
